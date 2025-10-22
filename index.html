@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пътувания по света</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Начална страница -->
+    <section id="home">
+        <h1>Добре дошли в сайта за пътувания!</h1>
+        <p>Разгледайте най-красивите дестинации по света и планирайте вашето следващо пътуване.</p>
+    </section>
+
+    <!-- Дестинации -->
+    <section id="destinations">
+        <h2>Популярни дестинации</h2>
+        <ul>
+            <li>Париж, Франция</li>
+            <li>Рим, Италия</li>
+            <li>Токио, Япония</li>
+            <li>Ню Йорк, САЩ</li>
+            <li>Барселона, Испания</li>
+        </ul>
+    </section>
+
+    <!-- Галерия -->
+    <section id="gallery">
+        <h2>Галерия</h2>
+        <div class="gallery-images">
+            <img src="paris.jpg" alt="Париж">
+            <img src="rome.jpg" alt="Рим">
+            <img src="tokyo.jpg" alt="Токио">
+            <img src="nyc.jpg" alt="Ню Йорк">
+        </div>
+    </section>
+
+    <!-- Контактна форма -->
+    <section id="contact">
+        <h2>Свържете се с нас</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Вашето име:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Вашият имейл:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Съобщение:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Изпратете</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Пътувания по света. Всички права запазени.</p>
+    </footer>
+</body>
+</html>
